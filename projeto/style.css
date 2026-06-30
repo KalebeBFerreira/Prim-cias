@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
+
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background: #0d5f4b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    border: solid 2px black;
+}
+
+header img {
+    width: 70px;
+    height: 70px;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
+
+.identidade {
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.menu .opcoes {
+    display: flex;
+    align-items: center;
+    position: relative;
+    list-style: none;
+    margin-right: 60px;
+}
+
+.menu .opcoes li a {
+    border-radius: 15px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.menu .opcoes li a:hover {
+    background-color: rgba(94, 92, 92, 0.493);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+   position: relative;
+   background-image: url(https://thumbs.dreamstime.com/b/verduras-vivas-vibrantes-bem-empilhadas-em-prateleiras-geleiras-geladeiras-de-supermercado-podem-ser-usadas-como-banner-ou-imagem-366500392.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   min-height: 700px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 0px;
+   padding: 5px 0px;
+
+}
+
+.BannerOpacidade {
+    position: absolute;
+    min-height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.767);
+    z-index: 1;
+    padding: 5px 0px;
+}
+
+.bannerConteudo {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    z-index: 2;
+}
+
+.bannerConteudo h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.bannerConteudo h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.bannerConteudo span {
+    color: #4bac96;
+}
+
+.bannerConteudo p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.butaoBanner {
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.butaoBanner:hover {
+    background-color: rgb(2, 71, 2);
+    padding: 17px 12px;
+    cursor: pointer;
+}
+
+#sobre{
+    width: 100%;
+    min-height: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+
+    background: linear-gradient(#0d5f4b, #1e6343);
+}
+
+#sobre .esquerda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#sobre .conteudo-texto p{
+    width: 100%;
+    height: 50%;
+    align-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#sobre .conteudo-texto h1{
+    align-content: center;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    font-size: 70px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#sobre .conteudo-texto h1 span{
+    align-content: center;
+    color: rgb(39, 31, 31);
+    margin-bottom: 60px;
+    margin-top: 60px;
+    font-size: 75px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#sobre .conteudo-imagem-esquerda{
+    width: 100%;
+    height: 50%;
+    align-content: center;
+
+    margin-top: -5px;
+}
+
+#sobre .conteudo-imagem-esquerda img{
+    width: 100%;
+    height: 100%;
+}
+
+#sobre .direita {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+#sobre .conteudo-imagem-direita{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    align-content: center;
+}
+
+#produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
