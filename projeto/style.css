@@ -191,7 +191,7 @@ main {
     height: 50%;
     align-content: center;
 
-    margin-top: 335px;
+    margin-top: -5px;
 }
 
 #sobre .conteudo-imagem-esquerda img{
@@ -308,4 +308,99 @@ main {
     background-color: rgb(33, 146, 33);
     scale: 1.1;
     cursor: pointer;
+}
+
+#contato {
+    width: 100%;
+    min-height: 900px;
+    background-color: #0d5f4b;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contato-esqueda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    width: 50%;
+    height: 100%;
+}
+
+#contato .conteudo-texto {
+    width: 100%;
+    height: 100%;
+    align-content: left;
+}
+
+#contato .conteudo-texto h1{
+    align-content: center;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-size: 70px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#contato .conteudo-texto h1 span{
+    align-content: center;
+    color: rgb(39, 31, 31);
+    margin-top: 60px;
+    font-size: 75px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#contato .conteudo-texto p{
+    width: 100%;
+    height: 50%;
+    align-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+
+    margin-top: -200px;
+}
+
+#contato .conteudo-texto h2 {
+    align-content: center;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: -200px;
+    font-size: 35px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+
+    color: rgb(39, 31, 31);
+}
+
+.card-contato {
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: #F7F7F7;
+    border: solid 1px black;
+    height: 50%;
+
+    margin-top: 225px;
+    margin-right: 50px;
+
+    scale: 0.9; 
+}
+
+.card-contato:hover{
+    scale: 1;
+}
+
+#contato .card-btn {
+    margin-top: 50px;
 }
