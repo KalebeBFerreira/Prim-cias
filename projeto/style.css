@@ -191,7 +191,7 @@ main {
     height: 50%;
     align-content: center;
 
-    margin-top: -5px;
+    margin-top: 335px;
 }
 
 #sobre .conteudo-imagem-esquerda img{
@@ -214,8 +214,98 @@ main {
     align-content: center;
 }
 
-#produtos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.produtos {
+    text-align: center;
+    justify-items: center;
 }
 
+.linha {
+    width: 1000px;
+    height: 2px;
+    background-color: #C47B3A;
+
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+#produtos {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 300;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+#produtos span{
+    color: #0d5f4b;
+}
+
+#cesta {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin-top: 50px;
+}
+
+.card {
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: #F7F7F7;
+    border: solid 1px black;
+
+    scale: 0.9;
+
+}
+
+.card:hover {
+    scale: 1;
+}
+
+.card-body {
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding: 10px;
+
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px
+}
+
+.preco {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+}
+
+.card-btn {
+    background-color: green;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 20px;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+.card-btn:hover{
+    background-color: rgb(33, 146, 33);
+    scale: 1.1;
+    cursor: pointer;
+}
